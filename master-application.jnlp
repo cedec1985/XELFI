@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:81/XELFI/master-application.jnlp" href="master-application.jnlp">
+    <information>
+        <title>xelfi</title>
+        <homepage src="http://localhost:81/XELFI/"></homepage>
+        <description>gestion des factures, clients et articles de xelfi</description>
+        <description kind="short">application pour une entreprise</description>
+        <!--${JNLP.ICONS}-->
+        <offline-allowed/>
+            <!--${JNLP.OFFLINE.ALLOWED}-->
+    </information>
+    <update check ="always" pocily ="prompt-update"></update>
+    <!--${JNLP.UPDATE}-->
+    <!--${JNLP.SECURITY}-->
+   <all-permissions/>
+    <resources
+     os ="Windows\11">
+        <jar href ="XELFI1.jar"></jar>
+        <java version="1.4.2+" max-heap-size="128m"></java>
+        <!--${JNLP.RESOURCES.JARS}-->
+        <!--${JNLP.RESOURCES.EXTENSIONS}-->
+    </resources>
+    <application-desc main-class="XELFI1" main="true"></application-desc>
+        
+        <!--${JNLP.APPLICATION.ARGS}-->
+    </application-desc>
+</jnlp>

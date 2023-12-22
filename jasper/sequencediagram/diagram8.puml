@@ -1,0 +1,8 @@
+@startuml
+header en-tête
+footer page %page% of %lastpage%
+title exemple diagram
+alice -> bob : c'est un exemple
+newpage
+bob -> alice : nouvelle page
+@enduml

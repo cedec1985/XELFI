@@ -1,0 +1,16 @@
+@startuml
+alice -> bob : authentication
+alt successful case
+    bob -> alice : request
+else some kind of failure
+    bob -> alice : failure
+    group mon label [mon label 2]
+    alice -> bob : log attack start
+        loop 1000 times
+        alice -> bob : dns attack
+        end
+    end
+else another type of failure
+    alice -> bob : please repeat
+end
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+actor bob #red
+participant alice
+participant "I have a really long name" as L #99FF99
+alice -> bob : authentication request
+bob -> alice : authentication response
+@enduml

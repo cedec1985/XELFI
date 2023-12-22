@@ -1,0 +1,33 @@
+@startuml
+skinparam backgroundcolor #EEEBDC
+skinparam handwritten true
+box masters
+skinparam sequence {
+ArrowColor DeepSkyBlue
+ActorBorderColor DeepSkyBlue
+LifeLineBorderColor blue
+LifeLineBackgroundColor #A9DCDF
+
+ParticipantBorderColor DeepSkyBlue
+ParticipantBackgroundColor Dodgerblue
+ParticipantFontName Impact
+ParticipantFontSize 17
+ParticipantFontColor #A9DCDF
+
+}
+actor User
+participant firstclass as A
+participant secondclass as B
+participant thirdclass as C
+ user -> A : dowork
+activate A
+A -> B : create request
+activate B
+B -> C : dowork
+activate C
+C --> B : workdone
+destroy C
+end box
+
+
+@enduml

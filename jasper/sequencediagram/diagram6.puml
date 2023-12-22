@@ -1,0 +1,4 @@
+@startuml
+bob -[#red]> alice : ok
+alice -[#FFF000]-> bob : ok
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+autonumber 40 10 "<font color=red>Message 0"
+bob -> alice : ok alice
+alice ->o bob : ok bob
+autonumber stop 
+bob -> alice : bonjour
+autonumber resume
+alice -> bob : another message
+autonumber inc A
+alice -> bob : ok 
+@enduml

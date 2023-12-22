@@ -1,0 +1,14 @@
+@startuml
+skinparam responseMessageBelowArrow true
+bob -> alice : hello
+alice -> bob : ok
+bob ->x alice : ok
+bob ->> alice : ok
+bob -\ alice : ok
+bob \\- alice : ok
+bob //-- alice : ok
+bob ->o alice : ok
+bob o\\-- alice : ok
+bob <-> alice : ok
+bob <->o alice : ok
+@enduml

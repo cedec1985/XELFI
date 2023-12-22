@@ -1,0 +1,9 @@
+@startuml
+box masters #gold
+autonumber 10
+alice -> bob 
+hnote right
+    the **%autonumber%** is ten
+end note
+end box
+@enduml

@@ -1,0 +1,32 @@
+@startuml
+!pragma teoz true
+==INITIALIZATION==
+alice -> bob : **hello**
+alice -> bob : __hello__
+    ...delay 5 minutes later...
+alice -> bob : //hello//
+activate A #DarkSalmon
+alice -> bob : //hello//
+deactivate A
+alice -> bob : //hello//
+destroy A
+alice -> bob : ""hello""
+||100||
+alice -> bob : --hello--
+note right of alice
+    this is <back:cadetblue><size:18>hello</size></back>
+   end note
+note over alice,bob
+    this is hosted by <img flower1.png>
+end note
+==REPETITION==
+create other
+alice -> other : who are you ?
+[-> alice : travail
+bob <-] : repos
+{start} alice -> bob :start
+bob -> alice : restart
+alice -> bob : begin work
+{end} bob -> : end
+{start} <-> {end} : time 1h 
+@enduml

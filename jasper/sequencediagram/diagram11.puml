@@ -1,0 +1,14 @@
+@startuml
+rnote over bob,alice
+bonjour
+end note
+note over alice
+bonjour
+end note
+note right of alice #aqua
+bonjour
+end note
+hnote across 
+bonjour
+end note
+@enduml

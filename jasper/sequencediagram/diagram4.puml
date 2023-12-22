@@ -1,0 +1,5 @@
+@startuml
+skinparam sequenceMessageAlign right
+bob -> alice : request
+alice -> bob = response
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+alice -> bob : hello bob
+alt #Gold #LightBlue successfull case
+    bob -> alice : hello alice
+else #Pink failure
+bob -> alice : failure
+end
+@enduml
