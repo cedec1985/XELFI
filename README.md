@@ -1,2 +1,2 @@
-Projet de développement Java
+Projet de développement Java Swing
 Utilisation de Netbeans IDE
