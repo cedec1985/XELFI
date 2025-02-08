@@ -1,5 +1,7 @@
 package maquettes;
 
+import java.awt.LayoutManager;
+
 public class FenArticle extends javax.swing.JFrame {
 
     public FenArticle() {
@@ -43,7 +45,7 @@ public class FenArticle extends javax.swing.JFrame {
         jLab_Fond = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        getContentPane().setLayout((LayoutManager) new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jScrollPane1.setPreferredSize(new java.awt.Dimension(452, 412));
 
