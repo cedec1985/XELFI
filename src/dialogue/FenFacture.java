@@ -74,12 +74,12 @@ public class FenFacture extends javax.swing.JFrame {
         jTxT_DateJour = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
-        getContentPane().setLayout((LayoutManager) new org.netbeans.lib.awtextra.AbsoluteLayout());
+ //       getContentPane().setLayout((LayoutManager) new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jScrollPane1.setPreferredSize(new java.awt.Dimension(452, 412));
         jScrollPane1.setViewportView(jTable);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 350, 742, 135));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.GridBagConstraints(250, 350, 742, 135));
 
         jLab_Fichier.setForeground(new java.awt.Color(255, 255, 255));
         jLab_Fichier.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/ods.png"))); // NOI18N
@@ -90,12 +90,12 @@ public class FenFacture extends javax.swing.JFrame {
                 jLab_FichierMouseClicked(evt);
             }
         });
-        getContentPane().add(jLab_Fichier, new org.netbeans.lib.awtextra.AbsoluteConstraints(60,140,-1,-1));
+        getContentPane().add(jLab_Fichier, new org.netbeans.lib.awtextra.GridBagConstraints(60,140,-1,-1));
 
         jLab_SupprimerLigne.setForeground(new java.awt.Color(255, 255, 255));
         jLab_SupprimerLigne.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/supprimer.png"))); // NOI18N
         jLab_SupprimerLigne.setText("Supprimer une ligne");
-        getContentPane().add(jLab_SupprimerLigne, new org.netbeans.lib.awtextra.AbsoluteConstraints(40,100,-1,-1));
+        getContentPane().add(jLab_SupprimerLigne, new org.netbeans.lib.awtextra.GridBagConstraints(40,100,-1,-1));
         jLab_SupprimerLigne.addMouseListener(new java.awt.event.MouseAdapter(){
             @Override
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -107,7 +107,7 @@ public class FenFacture extends javax.swing.JFrame {
         jLab_SupprimerTout.setText("Supprimer toutes les lignes");
         jLab_SupprimerTout.setToolTipText("");
         jLab_SupprimerTout.setName("");
-        getContentPane().add(jLab_SupprimerTout, new org.netbeans.lib.awtextra.AbsoluteConstraints(55,125,-1,-1));
+        getContentPane().add(jLab_SupprimerTout, new org.netbeans.lib.awtextra.GridBagConstraints(55,125,-1,-1));
 
         jLab_Retour.setForeground(new java.awt.Color(255, 255, 255));
         jLab_Retour.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/retour.png"))); // NOI18N
@@ -117,87 +117,87 @@ public class FenFacture extends javax.swing.JFrame {
                 jLab_RetourMouseClicked(evt);
             }
         });
-        getContentPane().add(jLab_Retour, new org.netbeans.lib.awtextra.AbsoluteConstraints(80,160,-1,-1));
+        getContentPane().add(jLab_Retour, new org.netbeans.lib.awtextra.GridBagConstraints(80,160,-1,-1));
 
         jLab_ModeReglement.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/carte.png"))); // NOI18N
         jLab_ModeReglement.setText("Mode de règlement");
-        getContentPane().add(jLab_ModeReglement, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 500, 140, -1));
+        getContentPane().add(jLab_ModeReglement, new org.netbeans.lib.awtextra.GridBagConstraints(260, 500, 140, -1));
 
         jLab_Fond.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/fondGeneral.jpg"))); // NOI18N
-        getContentPane().add(jLab_Fond, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -100, 240, 710));
+        getContentPane().add(jLab_Fond, new org.netbeans.lib.awtextra.GridBagConstraints(0, -100, 240, 710));
 
         jLab_BandeauFacture.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/barre.png"))); // NOI18N
-        getContentPane().add(jLab_BandeauFacture, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 120, 730, 40));
+        getContentPane().add(jLab_BandeauFacture, new org.netbeans.lib.awtextra.GridBagConstraints(250, 120, 730, 40));
 
         jLab_NomClient.setText("Nom du client");
-        getContentPane().add(jLab_NomClient, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 60, -1, -1));
+        getContentPane().add(jLab_NomClient, new org.netbeans.lib.awtextra.GridBagConstraints(260, 60, -1, -1));
 
         jTxT_NomClient.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
         jTxT_NomClient.setText("[ Cliquez ici pour sélectionner un client ]");
-        getContentPane().add(jTxT_NomClient, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 80, 270, -1));
+        getContentPane().add(jTxT_NomClient, new org.netbeans.lib.awtextra.GridBagConstraints(260, 80, 270, -1));
 
         jLab_NumDocument.setText("Numéro du document");
         jLab_NumDocument.setToolTipText("");
-        getContentPane().add(jLab_NumDocument, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 60, -1, -1));
+        getContentPane().add(jLab_NumDocument, new org.netbeans.lib.awtextra.GridBagConstraints(560, 60, -1, -1));
 
         jLab_DateJour.setText("Date du jour");
-        getContentPane().add(jLab_DateJour, new org.netbeans.lib.awtextra.AbsoluteConstraints(500,60,-1,-1));
+        getContentPane().add(jLab_DateJour, new org.netbeans.lib.awtextra.GridBagConstraints(500,60,-1,-1));
 
         jLab_BandeauHaut.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/barre.png"))); // NOI18N
-        getContentPane().add(jLab_BandeauHaut, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, 730, 40));
+        getContentPane().add(jLab_BandeauHaut, new org.netbeans.lib.awtextra.GridBagConstraints(250, 10, 730, 40));
 
         jBTN_Articles.setText("Parcourir les articles");
-        getContentPane().add(jBTN_Articles, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 170, -1, -1));
+        getContentPane().add(jBTN_Articles, new org.netbeans.lib.awtextra.GridBagConstraints(260, 170, -1, -1));
 
         jLab_CodeArticle.setText("Code");
         jLab_CodeArticle.setToolTipText("");
-        getContentPane().add(jLab_CodeArticle, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 200, -1, -1));
-        getContentPane().add(jTxT_CodeArticle, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 200, 80, -1));
+        getContentPane().add(jLab_CodeArticle, new org.netbeans.lib.awtextra.GridBagConstraints(260, 200, -1, -1));
+        getContentPane().add(jTxT_CodeArticle, new org.netbeans.lib.awtextra.GridBagConstraints(320, 200, 80, -1));
 
         jLab_Quantite.setText("Quantité");
-        getContentPane().add(jLab_Quantite, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 230, -1, -1));
+        getContentPane().add(jLab_Quantite, new org.netbeans.lib.awtextra.GridBagConstraints(260, 230, -1, -1));
 
         JCmB_Quantite.setOpaque(false);
-        getContentPane().add(JCmB_Quantite, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 230, -1, -1));
+        getContentPane().add(JCmB_Quantite, new org.netbeans.lib.awtextra.GridBagConstraints(320, 230, -1, -1));
 
-        getContentPane().add(jCB_NumDocument, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 80, -1, -1));
+        getContentPane().add(jCB_NumDocument, new org.netbeans.lib.awtextra.GridBagConstraints(570, 80, -1, -1));
 
         jLab_Designation.setText("Désignation");
         jLab_Designation.setToolTipText("");
-        getContentPane().add(jLab_Designation, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 200, -1, -1));
+        getContentPane().add(jLab_Designation, new org.netbeans.lib.awtextra.GridBagConstraints(420, 200, -1, -1));
 
         jLab_Montant.setText("Montant");
-        getContentPane().add(jLab_Montant, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 230, -1, -1));
+        getContentPane().add(jLab_Montant, new org.netbeans.lib.awtextra.GridBagConstraints(420, 230, -1, -1));
 
         jLab_CodeCategorie.setText("Code catégorie");
-        getContentPane().add(jLab_CodeCategorie, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 200, -1, -1));
-        getContentPane().add(jTxT_Designation, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 200, 290, -1));
-        getContentPane().add(jTxT_Montant, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 230, 90, -1));
-        getContentPane().add(jTxT_CodeCategorie, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 200, 70, -1));
+        getContentPane().add(jLab_CodeCategorie, new org.netbeans.lib.awtextra.GridBagConstraints(810, 200, -1, -1));
+        getContentPane().add(jTxT_Designation, new org.netbeans.lib.awtextra.GridBagConstraints(500, 200, 290, -1));
+        getContentPane().add(jTxT_Montant, new org.netbeans.lib.awtextra.GridBagConstraints(500, 230, 90, -1));
+        getContentPane().add(jTxT_CodeCategorie, new org.netbeans.lib.awtextra.GridBagConstraints(900, 200, 70, -1));
 
         jBTN_Ajouter.setText("Ajouter");
-        getContentPane().add(jBTN_Ajouter, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 240, -1, -1));
+        getContentPane().add(jBTN_Ajouter, new org.netbeans.lib.awtextra.GridBagConstraints(810, 240, -1, -1));
 
         jBTN_Modifier.setText("Modifier");
-        getContentPane().add(jBTN_Modifier, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 240, -1, -1));
+        getContentPane().add(jBTN_Modifier, new org.netbeans.lib.awtextra.GridBagConstraints(890, 240, -1, -1));
 
         jLab_TotalTTC.setText("Total : ");
-        getContentPane().add(jLab_TotalTTC, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 510, 120, -1));
+        getContentPane().add(jLab_TotalTTC, new org.netbeans.lib.awtextra.GridBagConstraints(650, 510, 120, -1));
 
         jLab_EtiTotalTTC.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/etiquette.png"))); // NOI18N
         jLab_EtiTotalTTC.setToolTipText("");
-        getContentPane().add(jLab_EtiTotalTTC, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 500, -1, -1));
+        getContentPane().add(jLab_EtiTotalTTC, new org.netbeans.lib.awtextra.GridBagConstraints(620, 500, -1, -1));
 
         jBTN_Valider.setText("Valider la facture");
         jBTN_Valider.setToolTipText("");
-        getContentPane().add(jBTN_Valider, new org.netbeans.lib.awtextra.AbsoluteConstraints(823, 500, 160, -1));
-        getContentPane().add(jCmB_ModeReglement, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 500, 80, -1));
+        getContentPane().add(jBTN_Valider, new org.netbeans.lib.awtextra.GridBagConstraints(823, 500, 160, -1));
+        getContentPane().add(jCmB_ModeReglement, new org.netbeans.lib.awtextra.GridBagConstraints(420, 500, 80, -1));
 
         jTxT_DateJour.setEditable(true);
         jTxT_DateJour.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
         jTxT_DateJour.setHorizontalAlignment(javax.swing.JTextField.LEFT);
         jTxT_DateJour.setFocusable(true);
-        getContentPane().add(jTxT_DateJour, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 80, 90, -1));
+        getContentPane().add(jTxT_DateJour, new org.netbeans.lib.awtextra.GridBagConstraints(790, 80, 90, -1));
 
         java.awt.Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize();
         setBounds((screenSize.width-1017)/2, (screenSize.height-591)/2, 1017, 591);

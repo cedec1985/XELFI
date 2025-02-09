@@ -77,7 +77,7 @@ public class FenTableClient extends javax.swing.JFrame implements TableModelList
         jLab_Fond = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        getContentPane().setLayout((LayoutManager) new org.netbeans.lib.awtextra.AbsoluteLayout());
+    //    getContentPane().setLayout((LayoutManager) new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jScrollPane1.setPreferredSize(new java.awt.Dimension(452, 412));
 
@@ -88,7 +88,7 @@ public class FenTableClient extends javax.swing.JFrame implements TableModelList
         });
         jScrollPane1.setViewportView(jTableClients);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 350, 742, 135));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.GridBagConstraints(250, 350, 742, 135));
 
         jLab_Ajouter.setForeground(new java.awt.Color(255, 255, 255));
         jLab_Ajouter.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/ajouter.png")));
@@ -98,7 +98,7 @@ public class FenTableClient extends javax.swing.JFrame implements TableModelList
                 jLab_AjouterMouseClicked(evt);
             }
         });
-        getContentPane().add(jLab_Ajouter, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, -1, -1));
+        getContentPane().add(jLab_Ajouter, new org.netbeans.lib.awtextra.GridBagConstraints(20, 10, -1, -1));
 
         jLab_Rechercher.setForeground(new java.awt.Color(255, 255, 255));
         jLab_Rechercher.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/chercher.png")));
@@ -108,7 +108,7 @@ public class FenTableClient extends javax.swing.JFrame implements TableModelList
                 jLab_RechercherMouseClicked(evt);
             }
         });
-        getContentPane().add(jLab_Rechercher, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, -1));
+        getContentPane().add(jLab_Rechercher, new org.netbeans.lib.awtextra.GridBagConstraints(20, 60, -1, -1));
 
         jLab_Modifier.setForeground(new java.awt.Color(255, 255, 255));
         jLab_Modifier.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/modifier.png")));
@@ -118,7 +118,7 @@ public class FenTableClient extends javax.swing.JFrame implements TableModelList
                 jLab_ModifierMouseClicked(evt);
             }
         });
-        getContentPane().add(jLab_Modifier, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, -1, -1));
+        getContentPane().add(jLab_Modifier, new org.netbeans.lib.awtextra.GridBagConstraints(20, 110, -1, -1));
 
         jLab_Supprimer.setForeground(new java.awt.Color(255, 255, 255));
         jLab_Supprimer.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/supprimer.png")));
@@ -128,7 +128,7 @@ public class FenTableClient extends javax.swing.JFrame implements TableModelList
                 jLab_SupprimerMouseClicked(evt);
             }
         });
-        getContentPane().add(jLab_Supprimer, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, -1, -1));
+        getContentPane().add(jLab_Supprimer, new org.netbeans.lib.awtextra.GridBagConstraints(20, 150, -1, -1));
 
         jLab_Aperçu.setForeground(new java.awt.Color(255, 255, 255));
         jLab_Aperçu.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/apercu.png")));
@@ -138,17 +138,17 @@ public class FenTableClient extends javax.swing.JFrame implements TableModelList
                 jLab_AperçuMouseClicked(evt);
             }
         });
-        getContentPane().add(jLab_Aperçu, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 280, -1, -1));
+        getContentPane().add(jLab_Aperçu, new org.netbeans.lib.awtextra.GridBagConstraints(20, 280, -1, -1));
 
         jLab_Imprimer.setForeground(new java.awt.Color(255, 255, 255));
         jLab_Imprimer.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/imprimer.png")));
         jLab_Imprimer.setText("Imprimer");
-        getContentPane().add(jLab_Imprimer, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 340, -1, -1));
+        getContentPane().add(jLab_Imprimer, new org.netbeans.lib.awtextra.GridBagConstraints(20, 340, -1, -1));
 
         jLab_Exporter.setForeground(new java.awt.Color(255, 255, 255));
         jLab_Exporter.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/exporter.png")));
         jLab_Exporter.setText("Exporter");
-        getContentPane().add(jLab_Exporter, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 390, -1, -1));
+        getContentPane().add(jLab_Exporter, new org.netbeans.lib.awtextra.GridBagConstraints(20, 390, -1, -1));
 
         jLab_Retour.setForeground(new java.awt.Color(255, 255, 255));
         jLab_Retour.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/retour.png")));
@@ -158,107 +158,107 @@ public class FenTableClient extends javax.swing.JFrame implements TableModelList
                 jLab_RetourMouseClicked(evt);
             }
         });
-        getContentPane().add(jLab_Retour, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 480, -1, -1));
+        getContentPane().add(jLab_Retour, new org.netbeans.lib.awtextra.GridBagConstraints(20, 480, -1, -1));
 
         jLabTitreClient.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabTitreClient.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/clientTitre.png")));
         jLabTitreClient.setText("Gestion des clients");
         jLabTitreClient.setToolTipText("");
-        getContentPane().add(jLabTitreClient, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 10, -1, -1));
+        getContentPane().add(jLabTitreClient, new org.netbeans.lib.awtextra.GridBagConstraints(260, 10, -1, -1));
 
         jLab_SousTitre.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLab_SousTitre.setText("A j o u t,  m o d i f i c a t i o n,  su p p r e s s i o n,  c o n s u l t a t i o n   e t   i m p r e s s i o n");
-        getContentPane().add(jLab_SousTitre, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 70, -1, -1));
+        getContentPane().add(jLab_SousTitre, new org.netbeans.lib.awtextra.GridBagConstraints(330, 70, -1, -1));
 
         jLab_Trier.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/trier.png")));
         jLab_Trier.setText("Trier");
-        getContentPane().add(jLab_Trier, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 490, 100, -1));
+        getContentPane().add(jLab_Trier, new org.netbeans.lib.awtextra.GridBagConstraints(420, 490, 100, -1));
 
         jCmBox_Trier.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Code", "Nom", "Date de création", "Carte" }));
-        getContentPane().add(jCmBox_Trier, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 500, 130, -1));
+        getContentPane().add(jCmBox_Trier, new org.netbeans.lib.awtextra.GridBagConstraints(520, 500, 130, -1));
 
         jLab_Code.setText("Code");
-        getContentPane().add(jLab_Code, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 90, -1));
+        getContentPane().add(jLab_Code, new org.netbeans.lib.awtextra.GridBagConstraints(260, 100, 90, -1));
 
         jLab_Nom.setText("Nom");
-        getContentPane().add(jLab_Nom, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 130, 90, -1));
+        getContentPane().add(jLab_Nom, new org.netbeans.lib.awtextra.GridBagConstraints(260, 130, 90, -1));
 
         jLab_Adresse.setText("Adresse");
-        getContentPane().add(jLab_Adresse, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 160, 90, -1));
+        getContentPane().add(jLab_Adresse, new org.netbeans.lib.awtextra.GridBagConstraints(260, 160, 90, -1));
 
         jLab_CP.setText("Code postal");
-        getContentPane().add(jLab_CP, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 190, 90, -1));
+        getContentPane().add(jLab_CP, new org.netbeans.lib.awtextra.GridBagConstraints(260, 190, 90, -1));
 
         jLab_Telephone.setText("Tél. fixe");
-        getContentPane().add(jLab_Telephone, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 220, 80, -1));
+        getContentPane().add(jLab_Telephone, new org.netbeans.lib.awtextra.GridBagConstraints(260, 220, 80, -1));
 
         jLab_Email.setText("Email");
-        getContentPane().add(jLab_Email, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 250, -1, -1));
+        getContentPane().add(jLab_Email, new org.netbeans.lib.awtextra.GridBagConstraints(260, 250, -1, -1));
 
         jLab_Remarques.setText("Remarques");
-        getContentPane().add(jLab_Remarques, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 280, 80, -1));
+        getContentPane().add(jLab_Remarques, new org.netbeans.lib.awtextra.GridBagConstraints(260, 280, 80, -1));
 
         jTxTCode.setEditable(false);
-        getContentPane().add(jTxTCode, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 100, 240, -1));
+        getContentPane().add(jTxTCode, new org.netbeans.lib.awtextra.GridBagConstraints(350, 100, 240, -1));
 
         jTxTNom.setEditable(false);
-        getContentPane().add(jTxTNom, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 130, 240, -1));
+        getContentPane().add(jTxTNom, new org.netbeans.lib.awtextra.GridBagConstraints(350, 130, 240, -1));
 
         jTXT_Adresse.setEditable(false);
-        getContentPane().add(jTXT_Adresse, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 160, 600, -1));
+        getContentPane().add(jTXT_Adresse, new org.netbeans.lib.awtextra.GridBagConstraints(350, 160, 600, -1));
 
         jTXT_CP.setEditable(false);
-        getContentPane().add(jTXT_CP, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 190, 240, -1));
+        getContentPane().add(jTXT_CP, new org.netbeans.lib.awtextra.GridBagConstraints(350, 190, 240, -1));
 
         jTXT_Telephone.setEditable(false);
-        getContentPane().add(jTXT_Telephone, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 220, 240, -1));
+        getContentPane().add(jTXT_Telephone, new org.netbeans.lib.awtextra.GridBagConstraints(350, 220, 240, -1));
 
         jTXT_Email.setEditable(false);
-        getContentPane().add(jTXT_Email, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 250, 240, -1));
+        getContentPane().add(jTXT_Email, new org.netbeans.lib.awtextra.GridBagConstraints(350, 250, 240, -1));
 
         jTXA_Remarque.setColumns(20);
         jTXA_Remarque.setEditable(false);
         jTXA_Remarque.setRows(5);
         jScrollPane2.setViewportView(jTXA_Remarque);
 
-        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 280, 620, 60));
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.GridBagConstraints(350, 280, 620, 60));
 
         jLab_DateCreation.setText("Date création");
-        getContentPane().add(jLab_DateCreation, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 100, 80, -1));
+        getContentPane().add(jLab_DateCreation, new org.netbeans.lib.awtextra.GridBagConstraints(620, 100, 80, -1));
 
         jLab_Prenom.setText("Prénom");
-        getContentPane().add(jLab_Prenom, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 130, 80, -1));
+        getContentPane().add(jLab_Prenom, new org.netbeans.lib.awtextra.GridBagConstraints(620, 130, 80, -1));
 
         jLab_Carte.setText("Carte fidélité");
-        getContentPane().add(jLab_Carte, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 100, 80, -1));
+        getContentPane().add(jLab_Carte, new org.netbeans.lib.awtextra.GridBagConstraints(840, 100, 80, -1));
 
         jTxT_DateCreation.setEditable(false);
         jTxT_DateCreation.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(jTxT_DateCreation, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 100, 120, -1));
+        getContentPane().add(jTxT_DateCreation, new org.netbeans.lib.awtextra.GridBagConstraints(700, 100, 120, -1));
 
         jTxT_Prenom.setEditable(false);
-        getContentPane().add(jTxT_Prenom, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 130, 250, -1));
+        getContentPane().add(jTxT_Prenom, new org.netbeans.lib.awtextra.GridBagConstraints(700, 130, 250, -1));
 
         jLab_Ville.setText("Ville");
-        getContentPane().add(jLab_Ville, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 190, -1, -1));
+        getContentPane().add(jLab_Ville, new org.netbeans.lib.awtextra.GridBagConstraints(620, 190, -1, -1));
 
         jLab_Mobilis.setText("Mobilis");
-        getContentPane().add(jLab_Mobilis, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 220, 50, -1));
+        getContentPane().add(jLab_Mobilis, new org.netbeans.lib.awtextra.GridBagConstraints(620, 220, 50, -1));
 
         jTXT_Ville.setEditable(false);
-        getContentPane().add(jTXT_Ville, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 190, 250, -1));
+        getContentPane().add(jTXT_Ville, new org.netbeans.lib.awtextra.GridBagConstraints(700, 190, 250, -1));
 
         jTXT_Mobilis.setEditable(false);
-        getContentPane().add(jTXT_Mobilis, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 220, 250, -1));
+        getContentPane().add(jTXT_Mobilis, new org.netbeans.lib.awtextra.GridBagConstraints(700, 220, 250, -1));
 
         checkBox_Carte.setEnabled(false);
-        getContentPane().add(checkBox_Carte, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 100, 20, -1));
+        getContentPane().add(checkBox_Carte, new org.netbeans.lib.awtextra.GridBagConstraints(930, 100, 20, -1));
 
         jLab_fond_module.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/fondModule.png")));
-        getContentPane().add(jLab_fond_module, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 60, 750, 290));
+        getContentPane().add(jLab_fond_module, new org.netbeans.lib.awtextra.GridBagConstraints(250, 60, 750, 290));
 
         jLab_Fond.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/fondGeneral.jpg")));
-        getContentPane().add(jLab_Fond, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, -100, 1000, 710));
+        getContentPane().add(jLab_Fond, new org.netbeans.lib.awtextra.GridBagConstraints(20, -100, 1000, 710));
 
         setSize(new java.awt.Dimension(1017, 591));
         setLocationRelativeTo(null);

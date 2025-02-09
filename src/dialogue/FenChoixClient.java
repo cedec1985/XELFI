@@ -73,11 +73,11 @@ public class FenChoixClient extends javax.swing.JDialog {
         jLabel_Fond = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        getContentPane().setLayout((LayoutManager) new org.netbeans.lib.awtextra.AbsoluteLayout());
+    //    getContentPane().setLayout((LayoutManager) new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel_Titre.setText("Double-cliquez sur la ligne du client.");
         jLabel_Titre.setToolTipText("");
-        getContentPane().add(jLabel_Titre, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 23, -1, -1));
+        getContentPane().add(jLabel_Titre, new org.netbeans.lib.awtextra.GridBagConstraints(12, 23, -1, -1));
 
         jTableClients.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -86,23 +86,23 @@ public class FenChoixClient extends javax.swing.JDialog {
         });
         jScrollPane1.setViewportView(jTableClients);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 46, 656, 269));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.GridBagConstraints(12, 46, 656, 269));
 
         jLab_recherche.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/chercheAssiste.png")));
         jLab_recherche.setText("Rechercher");
         jLab_recherche.setToolTipText("");
-        getContentPane().add(jLab_recherche, new org.netbeans.lib.awtextra.AbsoluteConstraints(422, 322, -1, -1));
+        getContentPane().add(jLab_recherche, new org.netbeans.lib.awtextra.GridBagConstraints(422, 322, -1, -1));
 
         jTxT_Rechercher.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 jTxT_RechercherKeyReleased(evt);
             }
         });
-        getContentPane().add(jTxT_Rechercher, new org.netbeans.lib.awtextra.AbsoluteConstraints(535, 327, 125, -1));
+        getContentPane().add(jTxT_Rechercher, new org.netbeans.lib.awtextra.GridBagConstraints(535, 327, 125, -1));
 
         jLabel_Fond.setBackground(new java.awt.Color(255, 255, 255));
         jLabel_Fond.setOpaque(true);
-        getContentPane().add(jLabel_Fond, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 680, 360));
+        getContentPane().add(jLabel_Fond, new org.netbeans.lib.awtextra.GridBagConstraints(0, 0, 680, 360));
 
         setSize(new java.awt.Dimension(698, 408));
         setLocationRelativeTo(null);

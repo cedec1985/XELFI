@@ -32,7 +32,7 @@ public class FenMenuPrincipal extends javax.swing.JFrame {
         jLabelc =new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout((LayoutManager) new org.netbeans.lib.awtextra.AbsoluteLayout());
+      //  getContentPane().setLayout((LayoutManager) new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLab_Quitter.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/quitter.png")));
         jLab_Quitter.setToolTipText("");
@@ -41,13 +41,13 @@ public class FenMenuPrincipal extends javax.swing.JFrame {
                 jLab_QuitterMouseClicked(evt);
             }
         });
-        getContentPane().add(jLab_Quitter, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 510, 165, 52));
+        getContentPane().add(jLab_Quitter, new org.netbeans.lib.awtextra.GridBagConstraints(20, 510, 165, 52));
 
         jLab_Titre.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
         jLab_Titre.setForeground(new java.awt.Color(204, 204, 255));
         jLab_Titre.setText("SARL XELFI");
         jLab_Titre.setToolTipText("");
-        getContentPane().add(jLab_Titre, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, -1, -1));
+        getContentPane().add(jLab_Titre, new org.netbeans.lib.awtextra.GridBagConstraints(30, 30, -1, -1));
 
         jLab_Client.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/marcheur1.png")));
         jLab_Client.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -59,7 +59,7 @@ public class FenMenuPrincipal extends javax.swing.JFrame {
                 }
             }
         });
-        getContentPane().add(jLab_Client, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 230, -1, -1));
+        getContentPane().add(jLab_Client, new org.netbeans.lib.awtextra.GridBagConstraints(290, 230, -1, -1));
 
         jLab_Article.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/powerBook.png")));
         jLab_Article.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -67,7 +67,7 @@ public class FenMenuPrincipal extends javax.swing.JFrame {
                 jLab_ArticleMouseClicked(evt);
             }
         });
-        getContentPane().add(jLab_Article, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 40, -1, -1));
+        getContentPane().add(jLab_Article, new org.netbeans.lib.awtextra.GridBagConstraints(520, 40, -1, -1));
 
         jLab_TableauxBord.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/camembert.png")));
         jLab_TableauxBord.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -75,10 +75,10 @@ public class FenMenuPrincipal extends javax.swing.JFrame {
                 jLab_TableauxBordMouseClicked(evt);
             }
         });
-        getContentPane().add(jLab_TableauxBord, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 230, -1, -1));
+        getContentPane().add(jLab_TableauxBord, new org.netbeans.lib.awtextra.GridBagConstraints(520, 230, -1, -1));
 
         jLab_parametres.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/parametres.png")));
-        getContentPane().add(jLab_parametres, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 420, -1, -1));
+        getContentPane().add(jLab_parametres, new org.netbeans.lib.awtextra.GridBagConstraints(530, 420, -1, -1));
 
         jLab_Facture.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/classeur1.png")));
         jLab_Facture.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -86,11 +86,11 @@ public class FenMenuPrincipal extends javax.swing.JFrame {
                 jLab_FactureMouseClicked(evt);
             }
         });
-        getContentPane().add(jLab_Facture, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 240, -1, -1));
+        getContentPane().add(jLab_Facture, new org.netbeans.lib.awtextra.GridBagConstraints(750, 240, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/fond.jpg")));
         jLabel1.setText("jLabel1");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 930, 580));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.GridBagConstraints(0, 0, 930, 580));
 
         jLabelc.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/pdf.png")));
         jLabelc.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -98,7 +98,7 @@ public class FenMenuPrincipal extends javax.swing.JFrame {
                 jLab_CategorieMouseClicked(evt);
             }
         });
-        getContentPane().add(jLabelc, new org.netbeans.lib.awtextra.AbsoluteConstraints(475,375,-1,-1));
+        getContentPane().add(jLabelc, new org.netbeans.lib.awtextra.GridBagConstraints(475,375,-1,-1));
 
         setSize(new java.awt.Dimension(948, 630));
         setLocationRelativeTo(null);

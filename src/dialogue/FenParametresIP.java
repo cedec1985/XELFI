@@ -41,15 +41,15 @@ public final class FenParametresIP extends javax.swing.JDialog {
         jLabel_Fond = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        getContentPane().setLayout((LayoutManager) new org.netbeans.lib.awtextra.AbsoluteLayout());
+      //  getContentPane().setLayout((LayoutManager) new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLab_AdresseIP.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLab_AdresseIP.setText("Adresse IP du serveur");
-        getContentPane().add(jLab_AdresseIP, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 20, 143, 32));
+        getContentPane().add(jLab_AdresseIP, new org.netbeans.lib.awtextra.GridBagConstraints(190, 20, 143, 32));
 
         jTxT_AdresseIP.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jTxT_AdresseIP.setToolTipText("");
-        getContentPane().add(jTxT_AdresseIP, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 60, 93, -1));
+        getContentPane().add(jTxT_AdresseIP, new org.netbeans.lib.awtextra.GridBagConstraints(190, 60, 93, -1));
 
         jBtn_Valider.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/valider.png")));
         jBtn_Valider.setText("Valider");
@@ -58,14 +58,14 @@ public final class FenParametresIP extends javax.swing.JDialog {
                 jBtn_ValiderActionPerformed(evt);
             }
         });
-        getContentPane().add(jBtn_Valider, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 210, -1, -1));
+        getContentPane().add(jBtn_Valider, new org.netbeans.lib.awtextra.GridBagConstraints(260, 210, -1, -1));
 
         jLab_BD.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLab_BD.setText("Base de données");
-        getContentPane().add(jLab_BD, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 110, 126, 32));
+        getContentPane().add(jLab_BD, new org.netbeans.lib.awtextra.GridBagConstraints(190, 110, 126, 32));
 
         jTxT_BD.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        getContentPane().add(jTxT_BD, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 150, 93, -1));
+        getContentPane().add(jTxT_BD, new org.netbeans.lib.awtextra.GridBagConstraints(190, 150, 93, -1));
 
         jBtn_RAZ.setText("RAZ");
         jBtn_RAZ.setToolTipText("");
@@ -74,11 +74,11 @@ public final class FenParametresIP extends javax.swing.JDialog {
                 jBtn_RAZActionPerformed(evt);
             }
         });
-        getContentPane().add(jBtn_RAZ, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 210, 90, -1));
+        getContentPane().add(jBtn_RAZ, new org.netbeans.lib.awtextra.GridBagConstraints(170, 210, 90, -1));
 
         jLabel_Fond.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/reseau.png")));
         jLabel_Fond.setToolTipText("");
-        getContentPane().add(jLabel_Fond, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 370, 250));
+        getContentPane().add(jLabel_Fond, new org.netbeans.lib.awtextra.GridBagConstraints(0, 0, 370, 250));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

@@ -7,8 +7,6 @@ import java.awt.LayoutManager;
 import java.awt.Toolkit;
 import javax.swing.JOptionPane;
 
-import org.netbeans.lib.awtextra.AbsoluteLayout;
-
 public class FenConnexion extends javax.swing.JFrame {
     public FenConnexion() {
         initComponents();
