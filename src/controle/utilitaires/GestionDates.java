@@ -10,8 +10,7 @@ public class GestionDates{
     public static String dateEnChaineFR(Date ladate) {
         Locale locale = Locale.FRANCE;
         DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy",locale);
-        String date = dateFormat.format(ladate);
-        return date;
+        return  dateFormat.format(ladate);
 }
 
 public static String chaineDateFRversEN(String dateFR){
@@ -39,20 +38,7 @@ Date laDateDate = dateStandard.parse(laDateChaineEN);
 return laDateDate;
 }
 
-public static Date dateJavaEnDateSQL(GestionDates laDate) {
-    return new java.sql.Date(laDate.getTime());
-    
-    }
-
-public static GestionDates dateJavaEnDateSQL() {
-    throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-public static Date dateJavaEnDateSQL(Date dtDate) {
-    throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-private long getTime() {
-    throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+public static Date dateJavaEnDateSQL(Date laDateDate) {
+    return new java.sql.Date(laDateDate.getTime());
     }
 }

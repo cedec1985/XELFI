@@ -47,7 +47,7 @@ public class TableauBord extends JDialog {
         getContentPane().add(getLblCa());
         getContentPane().add(getLblImpays());
         setIconImage(Toolkit.getDefaultToolkit().getImage(getClass()
-                .getResource("/images/logoNetBeans.png")));
+                .getResource("src/images/logoNetBeans.png")));
         setTitle("SARL XELFI");
     }
 
@@ -55,7 +55,7 @@ public class TableauBord extends JDialog {
         if (JLab_Camembert == null) {
             JLab_Camembert = new JLabel("Factures");
             JLab_Camembert.setIcon(new ImageIcon(TableauBord.class
-                    .getResource("/images/chart.png")));
+                    .getResource("src/images/chart.png")));
             JLab_Camembert.setFont(new Font("Segoe UI", Font.BOLD, 18));
             JLab_Camembert.setBounds(24, 64, 164, 48);
             JLab_Camembert.addMouseListener(new MouseAdapter() {
@@ -78,7 +78,7 @@ public class TableauBord extends JDialog {
         if (JLab_Nombre == null) {
             JLab_Nombre = new JLabel("Nombre");
             JLab_Nombre.setIcon(new ImageIcon(TableauBord.class
-                    .getResource("/images/commande1.png")));
+                    .getResource("src/images/commande1.png")));
             JLab_Nombre.setFont(new Font("Segoe UI", Font.PLAIN, 14));
             JLab_Nombre.setBounds(253, 13, 179, 48);
         }
@@ -87,7 +87,7 @@ public class TableauBord extends JDialog {
     private JLabel getLblCa() {
         if (lblCa == null) {
             lblCa = new JLabel("CA");
-            lblCa.setIcon(new ImageIcon(TableauBord.class.getResource("/images/tableauBord.png")));
+            lblCa.setIcon(new ImageIcon(TableauBord.class.getResource("src/images/tableauBord.png")));
             lblCa.setFont(new Font("Segoe UI", Font.PLAIN, 14));
             lblCa.setBounds(253, 66, 179, 48);
         }
@@ -96,7 +96,7 @@ public class TableauBord extends JDialog {
     private JLabel getLblImpays() {
         if (lblImpays == null) {
             lblImpays = new JLabel("Impay\u00E9s");
-            lblImpays.setIcon(new ImageIcon(TableauBord.class.getResource("/images/client2.png")));
+            lblImpays.setIcon(new ImageIcon(TableauBord.class.getResource("src/images/client2.png")));
             lblImpays.setFont(new Font("Segoe UI", Font.PLAIN, 14));
             lblImpays.setBounds(253, 125, 179, 48);
         }

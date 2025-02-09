@@ -92,4 +92,8 @@ Client instanceClient = new Client();
     private ArrayList<Client> getlesEnreg() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
+    public Date getDateString(String strDate) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getDateString'");
+    }
 }

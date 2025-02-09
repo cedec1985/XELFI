@@ -12,7 +12,7 @@ public class FenTableauBord extends javax.swing.JDialog {
     }
 
     private void complementGUI() {
-        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/images/logoNetBeans.png")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("src/images/logoNetBeans.png")));
         setTitle("SARL XELFI");
     }
 
@@ -29,23 +29,23 @@ public class FenTableauBord extends javax.swing.JDialog {
         getContentPane().setLayout((LayoutManager) new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLab_Camembert.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLab_Camembert.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/chart.png"))); // NOI18N
+        jLab_Camembert.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/chart.png"))); // NOI18N
         jLab_Camembert.setText(" Factures");
         jLab_Camembert.setToolTipText("");
         getContentPane().add(jLab_Camembert, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, -1, -1));
 
         jLab_Nombre.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLab_Nombre.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/commande1.png"))); // NOI18N
+        jLab_Nombre.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/commande1.png"))); // NOI18N
         jLab_Nombre.setText("Nombre");
         getContentPane().add(jLab_Nombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 20, -1, -1));
 
         jLab_CA.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLab_CA.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/tableauBord.png"))); // NOI18N
+        jLab_CA.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/tableauBord.png"))); // NOI18N
         jLab_CA.setText("CA");
         getContentPane().add(jLab_CA, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 90, -1, -1));
 
         jLab_Impayes.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLab_Impayes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/client2.png"))); // NOI18N
+        jLab_Impayes.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/client2.png"))); // NOI18N
         jLab_Impayes.setText("Impayés");
         getContentPane().add(jLab_Impayes, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 160, -1, -1));
 

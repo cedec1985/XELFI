@@ -18,7 +18,7 @@ public final class FenParametresIP extends javax.swing.JDialog {
     }
 
     private void complementGUI() {
-        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/images/logoNetBeans.png")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("src/images/logoNetBeans.png")));
         setTitle("SARL XELFI");
     }
     public void recupParametres() throws IOException {
@@ -51,7 +51,7 @@ public final class FenParametresIP extends javax.swing.JDialog {
         jTxT_AdresseIP.setToolTipText("");
         getContentPane().add(jTxT_AdresseIP, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 60, 93, -1));
 
-        jBtn_Valider.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/valider.png")));
+        jBtn_Valider.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/valider.png")));
         jBtn_Valider.setText("Valider");
         jBtn_Valider.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -76,7 +76,7 @@ public final class FenParametresIP extends javax.swing.JDialog {
         });
         getContentPane().add(jBtn_RAZ, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 210, 90, -1));
 
-        jLabel_Fond.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/reseau.png")));
+        jLabel_Fond.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/reseau.png")));
         jLabel_Fond.setToolTipText("");
         getContentPane().add(jLabel_Fond, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 370, 250));
 

@@ -84,7 +84,7 @@ public class FenFicheClient extends javax.swing.JFrame {
         getContentPane().setLayout((LayoutManager) new org.netbeans.lib.awtextra.AbsoluteLayout());
       
         jLab_Action.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Action.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/ajouter.png")));
+        jLab_Action.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/ajouter.png")));
         jLab_Action.setText("ACTION : Je vais changer...");
         jLab_Action.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -94,22 +94,22 @@ public class FenFicheClient extends javax.swing.JFrame {
         getContentPane().add(jLab_Action, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, -1, -1));
 
         jLab_Aperçu.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Aperçu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/apercu2.png")));
+        jLab_Aperçu.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/apercu2.png")));
         jLab_Aperçu.setText("Aperçu");
         getContentPane().add(jLab_Aperçu, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, -1, -1));
 
         jLab_Imprimer.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Imprimer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/imprimer.png")));
+        jLab_Imprimer.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/imprimer.png")));
         jLab_Imprimer.setText("Imprimer");
         getContentPane().add(jLab_Imprimer, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 170, -1, -1));
 
         jLab_Exporter.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Exporter.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/exporter.png")));
+        jLab_Exporter.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/exporter.png")));
         jLab_Exporter.setText("Exporter");
         getContentPane().add(jLab_Exporter, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, -1, -1));
 
         jLab_Retour.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Retour.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/retour.png")));
+        jLab_Retour.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/retour.png")));
         jLab_Retour.setText("Menu Clients");
         jLab_Retour.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -119,7 +119,7 @@ public class FenFicheClient extends javax.swing.JFrame {
         getContentPane().add(jLab_Retour, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 310, -1, -1));
 
         jLabTitreClient.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabTitreClient.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/clientTitre.png")));
+        jLabTitreClient.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/clientTitre.png")));
         jLabTitreClient.setText("Je vais changer...");
         jLabTitreClient.setToolTipText("");
         getContentPane().add(jLabTitreClient, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 10, -1, -1));
@@ -183,10 +183,10 @@ public class FenFicheClient extends javax.swing.JFrame {
         getContentPane().add(jTXT_Mobilis, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 220, 250, -1));
         getContentPane().add(checkBox_Carte, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 100, 20, -1));
 
-        jLab_fond_module.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fondModule.png")));
+        jLab_fond_module.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/fondModule.png")));
         getContentPane().add(jLab_fond_module, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 60, 750, 290));
 
-        jLab_Fond.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fondGeneral.jpg")));
+        jLab_Fond.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/fondGeneral.jpg")));
         getContentPane().add(jLab_Fond, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -100, 1000, 490));
 
         setSize(new java.awt.Dimension(1017, 437));

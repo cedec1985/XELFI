@@ -28,23 +28,23 @@ public class ComboBoxRenderer extends JLabel implements ListCellRenderer<Object>
             setForeground(list.getForeground());
         }
         if (selectedIndex == 0) {
-            icon = new ImageIcon(getClass().getResource("/images/gestion/pdf.png"));
+            icon = new ImageIcon(getClass().getResource("src/images/gestion/pdf.png"));
             txt = "PDF (*.pdf)";
         }
         if (selectedIndex == 1) {
-            icon = new ImageIcon(getClass().getResource("/images/gestion/docx.png"));
+            icon = new ImageIcon(getClass().getResource("src/images/gestion/docx.png"));
             txt = "DOCX (*.docx)";
         }
         if (selectedIndex == 2) {
-            icon = new ImageIcon(getClass().getResource("/images/gestion/html.png"));
+            icon = new ImageIcon(getClass().getResource("src/images/gestion/html.png"));
             txt = "HTML (*.html)";
         }
         if (selectedIndex == 3) {
-            icon = new ImageIcon(getClass().getResource("/images/gestion/odt.png"));
+            icon = new ImageIcon(getClass().getResource("src/images/gestion/odt.png"));
             txt = "ODT (*.odt)";
         }
         if (selectedIndex == 4) {
-            icon = new ImageIcon(getClass().getResource("/images/gestion/ods.png"));
+            icon = new ImageIcon(getClass().getResource("src/images/gestion/ods.png"));
             txt = "ODS (*.ods)";
         }
         setIcon(icon);

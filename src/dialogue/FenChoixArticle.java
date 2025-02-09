@@ -9,6 +9,7 @@ import javax.swing.table.TableModel;
 
 public class FenChoixArticle extends javax.swing.JDialog {
 
+
     private TableModel leModeleArticle;
     public FenChoixArticle(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
@@ -18,7 +19,7 @@ public class FenChoixArticle extends javax.swing.JDialog {
 
     private void complementGUI() {
         setIconImage(Toolkit.getDefaultToolkit().getImage(getClass()
-                .getResource("/images/logoNetBeans.png")));
+                .getResource("src/images/logoNetBeans.png")));
         setTitle("SARL XELFI");
     }
 
@@ -53,7 +54,7 @@ public class FenChoixArticle extends javax.swing.JDialog {
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 46, 656, 269));
 
-        jLab_recherche.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/chercheAssiste.png")));
+        jLab_recherche.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/chercheAssiste.png")));
         jLab_recherche.setText("Rechercher");
         jLab_recherche.setToolTipText("");
         getContentPane().add(jLab_recherche, new org.netbeans.lib.awtextra.AbsoluteConstraints(422, 322, -1, -1));

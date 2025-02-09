@@ -91,7 +91,7 @@ public class FenTableClient extends javax.swing.JFrame implements TableModelList
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 350, 742, 135));
 
         jLab_Ajouter.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Ajouter.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/ajouter.png")));
+        jLab_Ajouter.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/ajouter.png")));
         jLab_Ajouter.setText("Ajouter");
         jLab_Ajouter.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -101,7 +101,7 @@ public class FenTableClient extends javax.swing.JFrame implements TableModelList
         getContentPane().add(jLab_Ajouter, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, -1, -1));
 
         jLab_Rechercher.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Rechercher.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/chercher.png")));
+        jLab_Rechercher.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/chercher.png")));
         jLab_Rechercher.setText("Rechercher");
         jLab_Rechercher.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -111,7 +111,7 @@ public class FenTableClient extends javax.swing.JFrame implements TableModelList
         getContentPane().add(jLab_Rechercher, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, -1));
 
         jLab_Modifier.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Modifier.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/modifier.png")));
+        jLab_Modifier.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/modifier.png")));
         jLab_Modifier.setText("Modifier");
         jLab_Modifier.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -121,7 +121,7 @@ public class FenTableClient extends javax.swing.JFrame implements TableModelList
         getContentPane().add(jLab_Modifier, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, -1, -1));
 
         jLab_Supprimer.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Supprimer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/supprimer.png")));
+        jLab_Supprimer.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/supprimer.png")));
         jLab_Supprimer.setText("Supprimer");
         jLab_Supprimer.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -131,7 +131,7 @@ public class FenTableClient extends javax.swing.JFrame implements TableModelList
         getContentPane().add(jLab_Supprimer, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, -1, -1));
 
         jLab_Aperçu.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Aperçu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/apercu.png")));
+        jLab_Aperçu.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/apercu.png")));
         jLab_Aperçu.setText("Aperçu");
         jLab_Aperçu.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -141,17 +141,17 @@ public class FenTableClient extends javax.swing.JFrame implements TableModelList
         getContentPane().add(jLab_Aperçu, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 280, -1, -1));
 
         jLab_Imprimer.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Imprimer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/imprimer.png")));
+        jLab_Imprimer.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/imprimer.png")));
         jLab_Imprimer.setText("Imprimer");
         getContentPane().add(jLab_Imprimer, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 340, -1, -1));
 
         jLab_Exporter.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Exporter.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/exporter.png")));
+        jLab_Exporter.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/exporter.png")));
         jLab_Exporter.setText("Exporter");
         getContentPane().add(jLab_Exporter, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 390, -1, -1));
 
         jLab_Retour.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Retour.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/retour.png")));
+        jLab_Retour.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/retour.png")));
         jLab_Retour.setText("Menu principal");
         jLab_Retour.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -161,7 +161,7 @@ public class FenTableClient extends javax.swing.JFrame implements TableModelList
         getContentPane().add(jLab_Retour, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 480, -1, -1));
 
         jLabTitreClient.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabTitreClient.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/clientTitre.png")));
+        jLabTitreClient.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/clientTitre.png")));
         jLabTitreClient.setText("Gestion des clients");
         jLabTitreClient.setToolTipText("");
         getContentPane().add(jLabTitreClient, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 10, -1, -1));
@@ -170,7 +170,7 @@ public class FenTableClient extends javax.swing.JFrame implements TableModelList
         jLab_SousTitre.setText("A j o u t,  m o d i f i c a t i o n,  su p p r e s s i o n,  c o n s u l t a t i o n   e t   i m p r e s s i o n");
         getContentPane().add(jLab_SousTitre, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 70, -1, -1));
 
-        jLab_Trier.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/trier.png")));
+        jLab_Trier.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/trier.png")));
         jLab_Trier.setText("Trier");
         getContentPane().add(jLab_Trier, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 490, 100, -1));
 
@@ -254,10 +254,10 @@ public class FenTableClient extends javax.swing.JFrame implements TableModelList
         checkBox_Carte.setEnabled(false);
         getContentPane().add(checkBox_Carte, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 100, 20, -1));
 
-        jLab_fond_module.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fondModule.png")));
+        jLab_fond_module.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/fondModule.png")));
         getContentPane().add(jLab_fond_module, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 60, 750, 290));
 
-        jLab_Fond.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fondGeneral.jpg")));
+        jLab_Fond.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/fondGeneral.jpg")));
         getContentPane().add(jLab_Fond, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, -100, 1000, 710));
 
         setSize(new java.awt.Dimension(1017, 591));

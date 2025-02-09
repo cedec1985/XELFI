@@ -53,45 +53,45 @@ public class FenArticle extends javax.swing.JFrame {
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 350, 742, 135));
 
         jLab_Ajouter.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Ajouter.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/ajouter.png"))); // NOI18N
+        jLab_Ajouter.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/ajouter.png"))); // NOI18N
         jLab_Ajouter.setText("Ajouter");
         jLab_Ajouter.setEnabled(false);
         getContentPane().add(jLab_Ajouter, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, -1, -1));
 
         jLab_Rechercher.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Rechercher.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/chercher.png"))); // NOI18N
+        jLab_Rechercher.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/chercher.png"))); // NOI18N
         jLab_Rechercher.setText("Rechercher");
         jLab_Rechercher.setEnabled(false);
         getContentPane().add(jLab_Rechercher, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, -1));
 
         jLab_Modifier.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Modifier.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/modifier.png"))); // NOI18N
+        jLab_Modifier.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/modifier.png"))); // NOI18N
         jLab_Modifier.setText("Modifier");
         jLab_Modifier.setEnabled(false);
         getContentPane().add(jLab_Modifier, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, -1, -1));
 
         jLab_Supprimer.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Supprimer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/supprimer.png"))); // NOI18N
+        jLab_Supprimer.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/supprimer.png"))); // NOI18N
         jLab_Supprimer.setText("Supprimer");
         getContentPane().add(jLab_Supprimer, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, -1, -1));
 
         jLab_Aperçu.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Aperçu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/apercu.png"))); // NOI18N
+        jLab_Aperçu.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/apercu.png"))); // NOI18N
         jLab_Aperçu.setText("Aperçu");
         getContentPane().add(jLab_Aperçu, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 280, -1, -1));
 
         jLab_Imprimer.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Imprimer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/imprimer.png"))); // NOI18N
+        jLab_Imprimer.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/imprimer.png"))); // NOI18N
         jLab_Imprimer.setText("Imprimer");
         getContentPane().add(jLab_Imprimer, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 340, -1, -1));
 
         jLab_Exporter.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Exporter.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/exporter.png"))); // NOI18N
+        jLab_Exporter.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/exporter.png"))); // NOI18N
         jLab_Exporter.setText("Exporter");
         getContentPane().add(jLab_Exporter, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 390, -1, -1));
 
         jLab_Retour.setForeground(new java.awt.Color(255, 255, 255));
-        jLab_Retour.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/retour.png"))); // NOI18N
+        jLab_Retour.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/retour.png"))); // NOI18N
         jLab_Retour.setText("Menu principal");
         jLab_Retour.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -101,7 +101,7 @@ public class FenArticle extends javax.swing.JFrame {
         getContentPane().add(jLab_Retour, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 480, -1, -1));
 
         jLabTitreClient.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabTitreClient.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/database.png"))); // NOI18N
+        jLabTitreClient.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/database.png"))); // NOI18N
         jLabTitreClient.setText("Gestion des articles");
         jLabTitreClient.setToolTipText("");
         getContentPane().add(jLabTitreClient, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 10, -1, -1));
@@ -110,7 +110,7 @@ public class FenArticle extends javax.swing.JFrame {
         jLab_SousTitre.setText("A j o u t,  m o d i f i c a t i o n,  su p p r e s s i o n,  c o n s u l t a t i o n   e t   i m p r e s s i o n");
         getContentPane().add(jLab_SousTitre, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 70, -1, -1));
 
-        jLab_Trier.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/trier.png"))); // NOI18N
+        jLab_Trier.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/trier.png"))); // NOI18N
         jLab_Trier.setText("Trier");
         getContentPane().add(jLab_Trier, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 490, 100, -1));
 
@@ -155,7 +155,7 @@ public class FenArticle extends javax.swing.JFrame {
         jBtn_Modifier.setText("Modifier");
         getContentPane().add(jBtn_Modifier, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 260, 110, 40));
 
-        jLab_Recherche.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/chercheAssiste.png"))); // NOI18N
+        jLab_Recherche.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/chercheAssiste.png"))); // NOI18N
         jLab_Recherche.setText("Rechercher");
         getContentPane().add(jLab_Recherche, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 500, 110, -1));
 
@@ -163,10 +163,10 @@ public class FenArticle extends javax.swing.JFrame {
         jTXt_Recherche.setSelectionStart(11);
         getContentPane().add(jTXt_Recherche, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 500, 190, -1));
 
-        jLab_fond_module.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fondModule.png"))); // NOI18N
+        jLab_fond_module.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/fondModule.png"))); // NOI18N
         getContentPane().add(jLab_fond_module, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 60, 750, 290));
 
-        jLab_Fond.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fondGeneral.jpg"))); // NOI18N
+        jLab_Fond.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/fondGeneral.jpg"))); // NOI18N
         getContentPane().add(jLab_Fond, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -100, 1000, 710));
 
         java.awt.Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize();
