@@ -1,5 +1,5 @@
 @startuml
-@startuml
+
 abstract        abstract
 abstract class  "abstract class"
 annotation      annotation
@@ -11,6 +11,7 @@ diamond         diamond
 entity          entity
 enum            enum
 interface       interface
-@enduml
 
 @enduml
+
+

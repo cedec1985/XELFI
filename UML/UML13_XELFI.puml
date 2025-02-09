@@ -1,6 +1,5 @@
 @startuml
 class xelfi_nb761.XELFI_NB761
-@startuml
 participant participant as Foo
 actor       actor       as Foo1
 boundary    boundary    as Foo2

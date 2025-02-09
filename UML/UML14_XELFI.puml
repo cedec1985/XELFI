@@ -1,6 +1,5 @@
 @startuml
 class xelfi_nb761.XELFI_NB761
-@startuml
 Alice -> "Bob()" : Hello
 "Bob()" -> "This is very\nlong" as Long
 ' You can also declare:

@@ -1,5 +1,5 @@
 @startuml
-@startuml
+
 participant Alice
 participant "The **Famous** Bob" as Bob
 
@@ -27,6 +27,6 @@ end note
 note over Alice, Bob
  <w:#FF33FF>This is hosted</w> by <img sourceforge.jpg>
 end note
-@enduml
 
 @enduml
+

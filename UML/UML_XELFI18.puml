@@ -1,5 +1,5 @@
 @startuml
-@startuml
+
 class A {
 {static} int counter
 +void {abstract} start(int timeoutms)
@@ -14,6 +14,7 @@ end note
 note right of A::"start(Duration timeout)"
   This method with Duration
 end note
-@enduml
 
 @enduml
+
+

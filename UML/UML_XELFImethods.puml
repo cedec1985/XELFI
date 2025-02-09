@@ -1,5 +1,4 @@
 @startuml
-@startuml
 
 class Dummy {
  -field1
@@ -10,4 +9,3 @@ class Dummy {
 
 @enduml
 
-@enduml

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="jnlp">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="information">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="xs:string" />
+                            <xs:element name="homepage">
+                                <xs:complexType>
+                                    <xs:attribute name="src" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="description" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="kind" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="offline-allowed" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="update">
+                    <xs:complexType>
+                        <xs:attribute name="check" use="required" />
+                        <xs:attribute name="pocily" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="all-permissions" />
+                <xs:element name="resources">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="jar">
+                                <xs:complexType>
+                                    <xs:attribute name="href" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="java">
+                                <xs:complexType>
+                                    <xs:attribute name="version" use="required" />
+                                    <xs:attribute name="max-heap-size" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="os" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="application-desc" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:attribute name="main-class" />
+                        <xs:attribute name="main" type="xs:boolean" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="spec" use="required" />
+            <xs:attribute name="codebase" use="required" />
+            <xs:attribute name="href" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

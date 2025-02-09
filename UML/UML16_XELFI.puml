@@ -1,5 +1,5 @@
 @startuml
-@startuml
+
 header cas de séquence
 footer Page %page% of %lastpage%
 autonumber
