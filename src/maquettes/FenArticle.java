@@ -1,5 +1,6 @@
 package maquettes;
 
+import java.awt.GridBagConstraints;
 import java.awt.LayoutManager;
 
 public class FenArticle extends javax.swing.JFrame {
@@ -45,10 +46,9 @@ public class FenArticle extends javax.swing.JFrame {
         jLab_Fond = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+
         getContentPane().setLayout((LayoutManager) new org.netbeans.lib.awtextra.AbsoluteLayout());
-
         jScrollPane1.setPreferredSize(new java.awt.Dimension(452, 412));
-
         jTable.setCellSelectionEnabled(true);
         jTable.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         jTable.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -117,7 +117,7 @@ public class FenArticle extends javax.swing.JFrame {
         jLabTitreClient.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/database.png")));
         jLabTitreClient.setText("Gestion des articles");
         jLabTitreClient.setToolTipText("");
-        getContentPane().add(jLabTitreClient, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 10, -1, -1));
+        getContentPane().add(jLabTitreClient, new GridBagConstraints());
 
         jLab_SousTitre.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLab_SousTitre.setText("A j o u t,  m o d i f i c a t i o n,  su p p r e s s i o n,  c o n s u l t a t i o n   e t   i m p r e s s i o n");

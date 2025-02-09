@@ -35,12 +35,15 @@ public class FenCategorie extends javax.swing.JFrame {
         jTXt_Recherche = new javax.swing.JTextField();
         jLab_fond_module = new javax.swing.JLabel();
         jLab_Fond = new javax.swing.JLabel();
+        
 
    setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+
         getContentPane().setLayout((LayoutManager) new org.netbeans.lib.awtextra.AbsoluteLayout());
         jScrollPane1.setPreferredSize(new java.awt.Dimension(452, 412));
         jScrollPane1.setViewportView(jTable);
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 350, 742, 135));
+        
         jLab_Ajouter.setForeground(new java.awt.Color(255, 255, 255));
         jLab_Ajouter.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/ajouter.png"))); // NOI18N
         jLab_Ajouter.setText("Ajouter");
