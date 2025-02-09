@@ -2,9 +2,12 @@ package dialogue;
 
 import controle.connexion.ControleConnexion;
 import java.awt.Cursor;
+import java.awt.GridBagConstraints;
 import java.awt.LayoutManager;
 import java.awt.Toolkit;
 import javax.swing.JOptionPane;
+
+import org.netbeans.lib.awtextra.AbsoluteLayout;
 
 public class FenConnexion extends javax.swing.JFrame {
     public FenConnexion() {
@@ -33,38 +36,38 @@ public class FenConnexion extends javax.swing.JFrame {
         jBtn_Valider = new javax.swing.JButton();
         jBtn_Quitter = new javax.swing.JButton();
 
+        
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout((LayoutManager) new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLab_Ecran.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLab_Ecran.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/ecran.png")));
         jLab_Ecran.setText(" Connexion au programme");
         jLab_Ecran.setToolTipText("");
-        getContentPane().add(jLab_Ecran, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 390, 60));
+        getContentPane().add(jLab_Ecran, new org.netbeans.lib.awtextra.GridBagConstraints(10, 10, 390, 60));
 
         jLab_Nom.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLab_Nom.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/utilisateur.png")));
         jLab_Nom.setText("Nom");
-        getContentPane().add(jLab_Nom, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, -1, -1));
+        getContentPane().add(jLab_Nom, new org.netbeans.lib.awtextra.GridBagConstraints(60, 100, -1, -1));
 
         jLab_Parametres.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/switch-on.png")));
         jLab_Parametres.setText("Paramètres de connexion");
         jLab_Parametres.setCursor(new Cursor(Cursor.HAND_CURSOR));
-        getContentPane().add(jLab_Parametres, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, 190, -1));
+        getContentPane().add(jLab_Parametres, new org.netbeans.lib.awtextra.GridBagConstraints(20, 230, 190, -1));
 
         jLab_MDP.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLab_MDP.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/key.png")));
         jLab_MDP.setText("Mot de passe");
-        getContentPane().add(jLab_MDP, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, -1, -1));
+        getContentPane().add(jLab_MDP, new org.netbeans.lib.awtextra.GridBagConstraints(60, 140, -1, -1));
 
         jTxT_Nom.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        getContentPane().add(jTxT_Nom, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 100, 190, -1));
+        getContentPane().add(jTxT_Nom, new org.netbeans.lib.awtextra.GridBagConstraints(190, 100, 190, -1));
 
         jPassword_MDP.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        getContentPane().add(jPassword_MDP, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 140, 190, -1));
+        getContentPane().add(jPassword_MDP, new org.netbeans.lib.awtextra.GridBagConstraints(190, 140, 190, -1));
 
         jLab_MiniFond.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/ban.png")));
-        getContentPane().add(jLab_MiniFond, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 13, -1, 203));
+        getContentPane().add(jLab_MiniFond, new org.netbeans.lib.awtextra.GridBagConstraints(12, 13, -1, 203));
 
         jBtn_Valider.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/valider.png")));
         jBtn_Valider.setText("Valider");
@@ -79,7 +82,7 @@ public class FenConnexion extends javax.swing.JFrame {
                 jBtn_ValiderKeyPressed(evt);
             }
         });
-        getContentPane().add(jBtn_Valider, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 220, -1, 30));
+        getContentPane().add(jBtn_Valider, new org.netbeans.lib.awtextra.GridBagConstraints(220, 220, -1, 30));
 
         jBtn_Quitter.setIcon(new javax.swing.ImageIcon(getClass().getResource("src/images/quitter.png")));
         jBtn_Quitter.setText("Quitter");
@@ -95,7 +98,7 @@ public class FenConnexion extends javax.swing.JFrame {
                 jBtn_QuitterKeyPressed(evt);
             }
         });
-        getContentPane().add(jBtn_Quitter, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 220, -1, 30));
+        getContentPane().add(jBtn_Quitter, new org.netbeans.lib.awtextra.GridBagConstraints(320, 220, -1, 30));
 
         setSize(new java.awt.Dimension(451, 316));
         setLocationRelativeTo(null);
